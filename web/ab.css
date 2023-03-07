@@ -1,0 +1,14 @@
+#img1 {
+    position: absolute; /* 为图像设置绝对定位 */
+    top: 25%; /* 将图像置于父元素的中间位置 */
+    left: 50%; /* 将图像置于父元素的中间位置 */
+    transform: translate(-50%, -50%); /* 将图像上移和左移以实现偏上效果 */
+    width: 300px;
+    height: 200px;
+}
+
+#message {
+    position: relative;
+    top: 300px;
+    left: 560px;
+}
